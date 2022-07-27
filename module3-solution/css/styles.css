@@ -1,6 +1,28 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #000;
+  background-color: #fff;
   font-family: 'Oxygen', sans-serif;
+}
+.navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nal-list a {
+  text-align: center;
+}
+
+#nal-list li:first-child {
+  border-top: 1px solid darkblue;
+}
+#nal-list li {
+  border-bottom: 1px solid darkblue;
+  border-left: 1px solid darkblue;
+  border-right: 1px solid darkblue;
+}
+.dropdown-menu1 {
+  background-color: yellow;
+  margin-top: 0;
+  margin-bottom: 0;
 }
