@@ -4,11 +4,27 @@ body {
   background-color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
+
+.navbar{
+  border-radius: 0;
+}
+
+.navbar-header h1 {
+  margin: 0;
+}
+
+.navbar-header h1 a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .navbar-nav {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+#nal-list {
+  background-color: yellow;
+}
 #nal-list a {
   text-align: center;
 }
@@ -22,7 +38,27 @@ body {
   border-right: 1px solid darkblue;
 }
 .dropdown-menu1 {
-  background-color: yellow;
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-item {
+  background-color: #9b8686;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.menu-item h3 {
+  text-align: center;
+  margin-top: 0;
+}
+.menu-item p {
+  text-align: justify;
   margin-bottom: 0;
 }
